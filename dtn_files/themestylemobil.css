@@ -1,0 +1,32 @@
+
+@media only screen and (max-width : 960px),
+only screen and (max-device-width : 960px){
+	
+	
+#logo {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	text-align: left;
+	}
+	
+	
+#linkliste {
+	text-align: center;
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom:30px;
+	}
+	
+	.toplink {
+	font-size: 36px;
+	text-decoration: none;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #222;
+	line-height:60px;
+	}
+	
+}

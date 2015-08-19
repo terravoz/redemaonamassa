@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+
+h1{
+font-family:'Quicksand', sans-serif;
+    font-size:30px;
+	text-transform:uppercase;
+	font-weight:bolder;
+}
+
+h2{
+	font-size:20px;
+	font-weight:bolder;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+#main{
+	background:#efefef;
+	text-align:center;
+}
+
+.infoboksdark{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	min-height:400px;
+	background:#dfdfdf;
+	padding-bottom:40px;
+	padding-top:40px;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left;
+  width:960px;
+}
+	
+.column{
+	display: inline-block;
+    float: left;
+	text-align:left;
+	width: 450px;
+	padding-left:30px;
+}
+.columnleft{
+	display: inline-block;
+    float: left;
+	text-align:left;
+	width: 320px;
+}
+.columncenter{
+	display: inline-block;
+    float: center;
+	text-align:left;
+	width: 320px;
+}
+.columnright{
+	display: inline-block;
+    float: right;
+	text-align:left;
+	width: 320px;
+}
+.columntextleft{
+	display: inline-block;
+    float: left;
+	width: 270px;
+	padding-left:60px;
+}
+.columntextcenter{
+	display: inline-block;
+    float: center;
+	width: 270px;
+    padding-left:40px;
+}
+.columntextright{
+	display: inline-block;
+    float: right;
+	width: 270px;
+	padding-left:0px;
+}
+.infobokslight{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	min-height:400px;
+	background:#F5F6F7;
+	padding-bottom:40px;
+	padding-top:40px;
+}
+
+
+.infoboks{
+	padding:20px;
+	background:#fff;
+	margin-bottom:20px;
+	text-align:left;
+}
+
+h1, h2, .addCart, input{
+text-align: left;
+}
+
+p{
+font-family:'Quicksand', sans-serif;
+	font-size: 18px;
+	height: auto;
+	line-height: 30px;
+}
+p1{
+font-family:'Quicksand', sans-serif;
+	font-size: 18px;
+	height: auto;
+	text-align:center;
+	line-height: 30px;
+}
+a{
+    color:#3796ff;
+	text-decoration:none;
+}
+
+
+@media only screen and (max-width : 960px),
+only screen and (max-device-width : 960px){
+
+.center{
+	  margin-left: auto;
+	  margin-right: auto;
+	  width:90%;
+	text-align:center;
+	}
+.column, .infoboks, p, h1,h2, .delto{
+	width:90%;
+	text-align:center;
+	float:none;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+

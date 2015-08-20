@@ -5,13 +5,13 @@
 body{
 	background:#fff;
 	margin:0;
-font-family:'Quicksand', sans-serif;
+	font-family:'Quicksand', sans-serif;
 	}
 
 #center{
-		width:600px;
-		margin-left:auto;
-		margin-right:auto;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
 	}
 	
 #logo{

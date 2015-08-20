@@ -139,7 +139,7 @@ only screen and (max-device-width : 960px){
 	}
 }
 
-<!-- Circle columns -->
+
 .circle-section {
     margin: 0 auto; /* center the secton */
     padding: 1em 4em;
@@ -170,7 +170,6 @@ only screen and (max-device-width : 960px){
 
 .clip-circle {
     box-sizing: border-box;
-    width: 100%;
     padding: 0;
     display: inline-block;
     overflow: hidden;

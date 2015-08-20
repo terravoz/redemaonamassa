@@ -148,9 +148,7 @@ only screen and (max-device-width : 960px){
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center 30%;
-    /* you can use a nomal image url here. I base 64 encoded it so I don't 
-    have to send a separate file with the example */
-    background-image: url("dtn_files/background_line.png");
+    background-image: url('/dtn_files/background_line.png');
 } 
  
 .circle-section .column {

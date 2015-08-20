@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand);
 
 h1{
-font-family:'Quicksand', sans-serif;
-    font-size:30px;
+	font-family:'Quicksand', sans-serif;
+    	font-size:30px;
 	text-transform:uppercase;
 	font-weight:bolder;
 }
@@ -26,8 +26,9 @@ h2{
 	min-height:400px;
 	background:#dfdfdf;
 	padding-bottom:40px;
-	padding-top:40px;
+	padding-top:20px;
 }
+
 .center{
   margin-left: auto;
   margin-right: auto;
@@ -42,6 +43,7 @@ h2{
 	width: 450px;
 	padding-left:30px;
 }
+
 .columnleft{
 	display: inline-block;
     float: left;
@@ -85,7 +87,7 @@ h2{
 	min-height:400px;
 	background:#F5F6F7;
 	padding-bottom:40px;
-	padding-top:40px;
+	padding-top:20px;
 }
 
 

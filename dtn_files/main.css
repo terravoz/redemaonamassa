@@ -148,7 +148,9 @@ only screen and (max-device-width : 960px){
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center 30%;
+/*
     background-image: url('/dtn_files/background_line.png');
+*/
 } 
  
 .circle-section .column {

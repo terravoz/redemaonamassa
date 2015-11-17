@@ -192,3 +192,56 @@ only screen and (max-device-width : 960px){
     }
 }
 
+.partners-section {
+    margin: 0 auto; /* center the secton */
+    padding: 1em 4em;
+    overflow: auto;
+    max-width: 1000px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 30%;
+/*
+    background-image: url('/dtn_files/background_line.png');
+*/
+} 
+ 
+.partners-section .column {
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 20%; 
+    float: left;
+}
+ 
+ /* push the text in the second column down */
+.partners-section .column:nth-of-type(2) {
+    padding-top: 3em;
+} 
+ 
+.column h3 {
+    text-align: center;
+} 
+
+.partners-image {
+    box-sizing: border-box;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+ /*   border: 2px solid rgb(131, 214, 215);
+    border-radius: 50%; */
+    width: 100%;
+    height: 100%;
+    max-height: 200; 
+}
+
+/* this helps the layout adapt when the screen is below 760px. */
+@media (max-width: 760px) {
+    .partners-section {
+        background-image: none;    
+    }    
+    .partners-section .column {
+        clear: both;        
+        width: 100%;
+    }
+}
+
